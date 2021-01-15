@@ -1,0 +1,12 @@
+{
+    "name": "socket-chat",
+    "version": "0.0.1",
+    "description": "My first Socket.io app",
+    "dependencies": {
+        "compression": "^1.7.4",
+        "debug": "^4.3.1",
+        "express": "^4.15.2",
+        "helmet": "^4.3.1",
+        "socket.io": "^3.1.0"
+    }
+}
