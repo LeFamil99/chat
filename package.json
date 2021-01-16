@@ -23,6 +23,7 @@
     "url": "git+https://github.com/LeFamil99/chat.git"
   },
   "author": "",
+  "private": "true",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LeFamil99/chat/issues"
