@@ -1,4 +1,6 @@
-const app = require("express")();
+const express = require("express");
+const app = express();
+const path = require("path");
 const http = require("http").createServer(app);
 const debug = require("debug")("app");
 const io = require("socket.io")(http)
@@ -7,10 +9,11 @@ const helmet = require("helmet");
 
 app.use(compression());
 app.use(helmet());
+app.use(express.static(path.join(__dirname, "public")));
 
-app.get("/", (req, res) => {
+/*app.get("/", (req, res) => {
     res.sendFile(__dirname + "/index.html")
-});
+});*/
 
 io.on("connection", (socket) => {
     debug("a user connected");
