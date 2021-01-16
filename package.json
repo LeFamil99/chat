@@ -1,15 +1,31 @@
 {
-    "name": "socket-chat",
-    "version": "0.0.1",
-    "engines": {
-        "node": "14.15.1"
-    },
-    "description": "My first Socket.io app",
-    "dependencies": {
-        "compression": "^1.7.4",
-        "debug": "^4.3.1",
-        "express": "^4.15.2",
-        "helmet": "^4.3.1",
-        "socket.io": "^3.1.0"
-    }
+  "name": "socket-chat",
+  "version": "0.0.1",
+  "engines": {
+    "node": "14.15.1"
+  },
+  "description": "My first Socket.io app",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "debug": "^4.3.1",
+    "express": "^4.15.2",
+    "helmet": "^4.3.1",
+    "socket.io": "^3.1.0"
+  },
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node app.js"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeFamil99/chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeFamil99/chat/issues"
+  },
+  "homepage": "https://github.com/LeFamil99/chat#readme"
 }
